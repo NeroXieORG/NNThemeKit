@@ -1,0 +1,16 @@
+PODS:
+  - NNThemeKit (0.1.0)
+
+DEPENDENCIES:
+  - NNThemeKit (from `../`)
+
+EXTERNAL SOURCES:
+  NNThemeKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NNThemeKit: 81b6f5ec7009ff9a58646ef4bd045750be4f6029
+
+PODFILE CHECKSUM: 08941219dbf12a412432c627cdfdb0ae320bf168
+
+COCOAPODS: 1.16.2

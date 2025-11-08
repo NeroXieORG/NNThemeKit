@@ -1,0 +1,6 @@
+framework module NNThemeKit {
+  umbrella header "NNThemeKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

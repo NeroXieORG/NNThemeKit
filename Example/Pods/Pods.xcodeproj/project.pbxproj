@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002D24FAC26FD08E4031F0A209821CD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+		005EB9DAFB328E8435DBFE99EC0BDD84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */; };
+		0579D8B4AD5509721BAEE63C7171F168 /* ThemeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E9AD803A74947D23A374F980EBF0D /* ThemeModels.swift */; };
+		0B23BE1B55665C5ED557DAF7FA174E57 /* ThemeRuleDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7388FD0C50F7BF853272387FC09888 /* ThemeRuleDelegate.swift */; };
+		0BC40797C22BB0F8FE50C509521AA023 /* Pods-NNThemeKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CEBF265369CF6617A3AECF8B503B660 /* Pods-NNThemeKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10B39BC5066A9A86007113F07FBDBB2B /* Pods-NNThemeKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B96990E53443413CCCFD2529518092F0 /* Pods-NNThemeKit_Example-dummy.m */; };
+		14398279379AB47FC3F3B254BFC68DCB /* UIColor+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C965995AEE8E38640936B7368E63546 /* UIColor+Theme.swift */; };
+		2314567BA760A0783E56B17D71F888D5 /* ThemeWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC086B687577938C4FC533C90AA3C87 /* ThemeWrapper.swift */; };
+		438CFC31B5314AE9FFBCA431980CC46A /* UIView+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933ED3141F0E8A25C3218C1DD1B76C33 /* UIView+Theme.swift */; };
+		4A90BBF0F97D6A3958219A3277F8E985 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+		5FD82C96D28EAC6527216BB534E110FB /* ThemeIMP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F596E56FC4D6F53AC052BF1B1CF7DA /* ThemeIMP.swift */; };
+		651B0880A52179A84C47726EACDBCD98 /* NNThemeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E6E59E45C90C0816BA32B9E01768C1E /* NNThemeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D2963796314E6DBC8A14C2A1F130E31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+		8FA6B652F6F0B56CEA6C1B8E3190B340 /* Pods-NNThemeKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37DA049692068F8EC6652779ECFFF36D /* Pods-NNThemeKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		970011E885F3157DC0EF257384530FD2 /* UIButton+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273925F28F250DB9D32BAB743B4C7B17 /* UIButton+Theme.swift */; };
+		AE0548EA3900C96155AEDCFDBBB049BF /* Pods-NNThemeKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16052834C0606EC7A37B6547F5DBD485 /* Pods-NNThemeKit_Tests-dummy.m */; };
+		D0087D1C6FCE5BD7C2A21E9ABCB1558F /* NNThemeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DCB5787992D9A7BE82C1A0F36205BE /* NNThemeKit-dummy.m */; };
+		E255E191419ADE6E370E927CDBD6017E /* ThemeModeObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120F767AD8FB957C38A0A375FE7FB210 /* ThemeModeObserver.swift */; };
+		EC863E82FAF51B733DB5FE737E77EDE6 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B988E318E03C5F9CA64DBC196C49195 /* Theme.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00A1C9EACCC742A1B529EA027FC13FBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58C2F0AC4F922D0D9D13BC190B0E7C14;
+			remoteInfo = NNThemeKit;
+		};
+		95EBD1894FD1FAB349AC8E650F576DD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F50B4406A052A1F9D07F54503A5068F;
+			remoteInfo = "Pods-NNThemeKit_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		034E9AD803A74947D23A374F980EBF0D /* ThemeModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeModels.swift; path = NNThemeKit/Classes/ThemeModels.swift; sourceTree = "<group>"; };
+		120F767AD8FB957C38A0A375FE7FB210 /* ThemeModeObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeModeObserver.swift; path = NNThemeKit/Classes/ThemeModeObserver.swift; sourceTree = "<group>"; };
+		146A84D92E78E0B7EA503F2B29667FC1 /* Pods-NNThemeKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NNThemeKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		16052834C0606EC7A37B6547F5DBD485 /* Pods-NNThemeKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NNThemeKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		214602726C90664FD0EC50CDEEAA5212 /* NNThemeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NNThemeKit.modulemap; sourceTree = "<group>"; };
+		257573BDBCBB75B9682824B390CC2221 /* NNThemeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NNThemeKit-prefix.pch"; sourceTree = "<group>"; };
+		2632D3006F693A59A8DCEC8AF5836B06 /* Pods-NNThemeKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NNThemeKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		273925F28F250DB9D32BAB743B4C7B17 /* UIButton+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Theme.swift"; path = "NNThemeKit/Classes/UIButton+Theme.swift"; sourceTree = "<group>"; };
+		2B96AEE2E0DD46B9695D29E2A7AD065A /* Pods-NNThemeKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NNThemeKit_Tests.modulemap"; sourceTree = "<group>"; };
+		3195DE040379929430DD3BF98A5BE0E8 /* NNThemeKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NNThemeKit-Info.plist"; sourceTree = "<group>"; };
+		37DA049692068F8EC6652779ECFFF36D /* Pods-NNThemeKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NNThemeKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		483A94B4A1C80221E816106FE623CD7F /* Pods-NNThemeKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NNThemeKit_Example"; path = Pods_NNThemeKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B988E318E03C5F9CA64DBC196C49195 /* Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Theme.swift; path = NNThemeKit/Classes/Theme.swift; sourceTree = "<group>"; };
+		55D9CF9D889EE75B91A1D9EE61D2B12C /* Pods-NNThemeKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NNThemeKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		56F596E56FC4D6F53AC052BF1B1CF7DA /* ThemeIMP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeIMP.swift; path = NNThemeKit/Classes/ThemeIMP.swift; sourceTree = "<group>"; };
+		5AC82407D8E33CC41331631150CC848A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5B043CF552F09E4DD20FE1F6A1F333AB /* Pods-NNThemeKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NNThemeKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5D43F3108063A51E308CA9467D9A2F48 /* NNThemeKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NNThemeKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6CEBF265369CF6617A3AECF8B503B660 /* Pods-NNThemeKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NNThemeKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		6E6E59E45C90C0816BA32B9E01768C1E /* NNThemeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NNThemeKit-umbrella.h"; sourceTree = "<group>"; };
+		6EA22A22A8466FDA304532B7441CFFA0 /* NNThemeKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NNThemeKit.debug.xcconfig; sourceTree = "<group>"; };
+		79DCB5787992D9A7BE82C1A0F36205BE /* NNThemeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NNThemeKit-dummy.m"; sourceTree = "<group>"; };
+		7C9578A5D9F1775356125E735510AC87 /* Pods-NNThemeKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NNThemeKit_Example.modulemap"; sourceTree = "<group>"; };
+		7FC086B687577938C4FC533C90AA3C87 /* ThemeWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeWrapper.swift; path = NNThemeKit/Classes/ThemeWrapper.swift; sourceTree = "<group>"; };
+		8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8DCA783C9740871A6D5ABA58FEF89859 /* Pods-NNThemeKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NNThemeKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		933ED3141F0E8A25C3218C1DD1B76C33 /* UIView+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Theme.swift"; path = "NNThemeKit/Classes/UIView+Theme.swift"; sourceTree = "<group>"; };
+		9C965995AEE8E38640936B7368E63546 /* UIColor+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Theme.swift"; path = "NNThemeKit/Classes/UIColor+Theme.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E50103190756D461CCEB6E6B1A40068 /* Pods-NNThemeKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NNThemeKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AE9B46045BD67CE9D6B2CEBCE8FD1C53 /* Pods-NNThemeKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NNThemeKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		B652F4785C2CE9A7639F910B8E0FBE82 /* Pods-NNThemeKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NNThemeKit_Example-Info.plist"; sourceTree = "<group>"; };
+		B96990E53443413CCCFD2529518092F0 /* Pods-NNThemeKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NNThemeKit_Example-dummy.m"; sourceTree = "<group>"; };
+		BACCB2F0AFBB6D4571E6AD2D8E2D61DC /* Pods-NNThemeKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NNThemeKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BB65D5113BABF7888A219F5C3AC8E444 /* Pods-NNThemeKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NNThemeKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D164E641900A2D7D7AFF17EF97C6862B /* Pods-NNThemeKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NNThemeKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D6D57D82B20FEA638395DD1C180BF88C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E45F2B63D2AC51E9ED927A8ACFFAD030 /* NNThemeKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NNThemeKit; path = NNThemeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECAF31DFE245903858E2450EDCF51F7C /* NNThemeKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NNThemeKit.release.xcconfig; sourceTree = "<group>"; };
+		ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		ED1B8E6090578E3FA4CA893887225718 /* Pods-NNThemeKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NNThemeKit_Tests"; path = Pods_NNThemeKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7388FD0C50F7BF853272387FC09888 /* ThemeRuleDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeRuleDelegate.swift; path = NNThemeKit/Classes/ThemeRuleDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55B56D0B0F5C7B12E3BB28E64797E65D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002D24FAC26FD08E4031F0A209821CD6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5927B9281993B637DF9B6F0172434E06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D2963796314E6DBC8A14C2A1F130E31 /* Foundation.framework in Frameworks */,
+				005EB9DAFB328E8435DBFE99EC0BDD84 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B17BB95E856CF15D122CA506327751F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A90BBF0F97D6A3958219A3277F8E985 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		099470B85226DFC88524A9A3FEE531AF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDD22A8338FF36AC1BA2D1DFFF8B6E36 /* Pods-NNThemeKit_Example */,
+				6D137D2B0093AC3AFAB46E3B6227F975 /* Pods-NNThemeKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0A76237B58AECC441AFA382E03598E21 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D6D57D82B20FEA638395DD1C180BF88C /* LICENSE */,
+				5D43F3108063A51E308CA9467D9A2F48 /* NNThemeKit.podspec */,
+				5AC82407D8E33CC41331631150CC848A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		10E102FDDEA268C55AFF43B3FACE9DAE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				214602726C90664FD0EC50CDEEAA5212 /* NNThemeKit.modulemap */,
+				79DCB5787992D9A7BE82C1A0F36205BE /* NNThemeKit-dummy.m */,
+				3195DE040379929430DD3BF98A5BE0E8 /* NNThemeKit-Info.plist */,
+				257573BDBCBB75B9682824B390CC2221 /* NNThemeKit-prefix.pch */,
+				6E6E59E45C90C0816BA32B9E01768C1E /* NNThemeKit-umbrella.h */,
+				6EA22A22A8466FDA304532B7441CFFA0 /* NNThemeKit.debug.xcconfig */,
+				ECAF31DFE245903858E2450EDCF51F7C /* NNThemeKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NNThemeKit";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DE6440B6853131A80C53DDA34375AAB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DE6440B6853131A80C53DDA34375AAB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */,
+				ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		35BC53B964C9CFCF9E8C49FECDB56C34 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D852F1E69162DFEB7406352B6FE56C3 /* NNThemeKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5D852F1E69162DFEB7406352B6FE56C3 /* NNThemeKit */ = {
+			isa = PBXGroup;
+			children = (
+				4B988E318E03C5F9CA64DBC196C49195 /* Theme.swift */,
+				56F596E56FC4D6F53AC052BF1B1CF7DA /* ThemeIMP.swift */,
+				034E9AD803A74947D23A374F980EBF0D /* ThemeModels.swift */,
+				120F767AD8FB957C38A0A375FE7FB210 /* ThemeModeObserver.swift */,
+				FD7388FD0C50F7BF853272387FC09888 /* ThemeRuleDelegate.swift */,
+				7FC086B687577938C4FC533C90AA3C87 /* ThemeWrapper.swift */,
+				273925F28F250DB9D32BAB743B4C7B17 /* UIButton+Theme.swift */,
+				9C965995AEE8E38640936B7368E63546 /* UIColor+Theme.swift */,
+				933ED3141F0E8A25C3218C1DD1B76C33 /* UIView+Theme.swift */,
+				0A76237B58AECC441AFA382E03598E21 /* Pod */,
+				10E102FDDEA268C55AFF43B3FACE9DAE /* Support Files */,
+			);
+			name = NNThemeKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6D137D2B0093AC3AFAB46E3B6227F975 /* Pods-NNThemeKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2B96AEE2E0DD46B9695D29E2A7AD065A /* Pods-NNThemeKit_Tests.modulemap */,
+				9E50103190756D461CCEB6E6B1A40068 /* Pods-NNThemeKit_Tests-acknowledgements.markdown */,
+				D164E641900A2D7D7AFF17EF97C6862B /* Pods-NNThemeKit_Tests-acknowledgements.plist */,
+				16052834C0606EC7A37B6547F5DBD485 /* Pods-NNThemeKit_Tests-dummy.m */,
+				AE9B46045BD67CE9D6B2CEBCE8FD1C53 /* Pods-NNThemeKit_Tests-Info.plist */,
+				37DA049692068F8EC6652779ECFFF36D /* Pods-NNThemeKit_Tests-umbrella.h */,
+				BB65D5113BABF7888A219F5C3AC8E444 /* Pods-NNThemeKit_Tests.debug.xcconfig */,
+				55D9CF9D889EE75B91A1D9EE61D2B12C /* Pods-NNThemeKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-NNThemeKit_Tests";
+			path = "Target Support Files/Pods-NNThemeKit_Tests";
+			sourceTree = "<group>";
+		};
+		B8EC7A8B8F4A3A81BE372B9442C7F0F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E45F2B63D2AC51E9ED927A8ACFFAD030 /* NNThemeKit */,
+				483A94B4A1C80221E816106FE623CD7F /* Pods-NNThemeKit_Example */,
+				ED1B8E6090578E3FA4CA893887225718 /* Pods-NNThemeKit_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDD22A8338FF36AC1BA2D1DFFF8B6E36 /* Pods-NNThemeKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7C9578A5D9F1775356125E735510AC87 /* Pods-NNThemeKit_Example.modulemap */,
+				5B043CF552F09E4DD20FE1F6A1F333AB /* Pods-NNThemeKit_Example-acknowledgements.markdown */,
+				146A84D92E78E0B7EA503F2B29667FC1 /* Pods-NNThemeKit_Example-acknowledgements.plist */,
+				B96990E53443413CCCFD2529518092F0 /* Pods-NNThemeKit_Example-dummy.m */,
+				2632D3006F693A59A8DCEC8AF5836B06 /* Pods-NNThemeKit_Example-frameworks.sh */,
+				B652F4785C2CE9A7639F910B8E0FBE82 /* Pods-NNThemeKit_Example-Info.plist */,
+				6CEBF265369CF6617A3AECF8B503B660 /* Pods-NNThemeKit_Example-umbrella.h */,
+				BACCB2F0AFBB6D4571E6AD2D8E2D61DC /* Pods-NNThemeKit_Example.debug.xcconfig */,
+				8DCA783C9740871A6D5ABA58FEF89859 /* Pods-NNThemeKit_Example.release.xcconfig */,
+			);
+			name = "Pods-NNThemeKit_Example";
+			path = "Target Support Files/Pods-NNThemeKit_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				35BC53B964C9CFCF9E8C49FECDB56C34 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				B8EC7A8B8F4A3A81BE372B9442C7F0F7 /* Products */,
+				099470B85226DFC88524A9A3FEE531AF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		81D292D63C0A76E29B020C29640DB4CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA6B652F6F0B56CEA6C1B8E3190B340 /* Pods-NNThemeKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1686345BF3E700A6FCEE565FCD9EC1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BC40797C22BB0F8FE50C509521AA023 /* Pods-NNThemeKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB20AD0E8E1CEE5578F0DF071C23BD1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651B0880A52179A84C47726EACDBCD98 /* NNThemeKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2F50B4406A052A1F9D07F54503A5068F /* Pods-NNThemeKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B30B9092424F2192AECA5EF3D129B79 /* Build configuration list for PBXNativeTarget "Pods-NNThemeKit_Example" */;
+			buildPhases = (
+				BE1686345BF3E700A6FCEE565FCD9EC1 /* Headers */,
+				D402631EC78C7F894366B6ACB0675F69 /* Sources */,
+				55B56D0B0F5C7B12E3BB28E64797E65D /* Frameworks */,
+				7E2016B3CF3B0434CED307BAEA79F1CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50F8CD189CDA86E18A5BB3F03346B187 /* PBXTargetDependency */,
+			);
+			name = "Pods-NNThemeKit_Example";
+			productName = Pods_NNThemeKit_Example;
+			productReference = 483A94B4A1C80221E816106FE623CD7F /* Pods-NNThemeKit_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		58C2F0AC4F922D0D9D13BC190B0E7C14 /* NNThemeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E48C154664C86482BA91F84BB8BFF6BA /* Build configuration list for PBXNativeTarget "NNThemeKit" */;
+			buildPhases = (
+				DCB20AD0E8E1CEE5578F0DF071C23BD1 /* Headers */,
+				3752AC9C439A2357D664ACA168C24C24 /* Sources */,
+				5927B9281993B637DF9B6F0172434E06 /* Frameworks */,
+				E3EC3CCEA02630560B124A6127886E7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NNThemeKit;
+			productName = NNThemeKit;
+			productReference = E45F2B63D2AC51E9ED927A8ACFFAD030 /* NNThemeKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		9E77FC3B36646ACB47D02E35477BA3FE /* Pods-NNThemeKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFC4049A2D11BDF2E7B067C11B6381B0 /* Build configuration list for PBXNativeTarget "Pods-NNThemeKit_Tests" */;
+			buildPhases = (
+				81D292D63C0A76E29B020C29640DB4CB /* Headers */,
+				B81D6FB940EF8F4581C84DBE6F3CAC7E /* Sources */,
+				5B17BB95E856CF15D122CA506327751F /* Frameworks */,
+				E37614B9E49493BB5143948C176F5893 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0475821045E2F178B1164786FCA7D6F4 /* PBXTargetDependency */,
+			);
+			name = "Pods-NNThemeKit_Tests";
+			productName = Pods_NNThemeKit_Tests;
+			productReference = ED1B8E6090578E3FA4CA893887225718 /* Pods-NNThemeKit_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B8EC7A8B8F4A3A81BE372B9442C7F0F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58C2F0AC4F922D0D9D13BC190B0E7C14 /* NNThemeKit */,
+				2F50B4406A052A1F9D07F54503A5068F /* Pods-NNThemeKit_Example */,
+				9E77FC3B36646ACB47D02E35477BA3FE /* Pods-NNThemeKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E2016B3CF3B0434CED307BAEA79F1CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37614B9E49493BB5143948C176F5893 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3EC3CCEA02630560B124A6127886E7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3752AC9C439A2357D664ACA168C24C24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0087D1C6FCE5BD7C2A21E9ABCB1558F /* NNThemeKit-dummy.m in Sources */,
+				EC863E82FAF51B733DB5FE737E77EDE6 /* Theme.swift in Sources */,
+				5FD82C96D28EAC6527216BB534E110FB /* ThemeIMP.swift in Sources */,
+				0579D8B4AD5509721BAEE63C7171F168 /* ThemeModels.swift in Sources */,
+				E255E191419ADE6E370E927CDBD6017E /* ThemeModeObserver.swift in Sources */,
+				0B23BE1B55665C5ED557DAF7FA174E57 /* ThemeRuleDelegate.swift in Sources */,
+				2314567BA760A0783E56B17D71F888D5 /* ThemeWrapper.swift in Sources */,
+				970011E885F3157DC0EF257384530FD2 /* UIButton+Theme.swift in Sources */,
+				14398279379AB47FC3F3B254BFC68DCB /* UIColor+Theme.swift in Sources */,
+				438CFC31B5314AE9FFBCA431980CC46A /* UIView+Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B81D6FB940EF8F4581C84DBE6F3CAC7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0548EA3900C96155AEDCFDBBB049BF /* Pods-NNThemeKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D402631EC78C7F894366B6ACB0675F69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B39BC5066A9A86007113F07FBDBB2B /* Pods-NNThemeKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0475821045E2F178B1164786FCA7D6F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NNThemeKit_Example";
+			target = 2F50B4406A052A1F9D07F54503A5068F /* Pods-NNThemeKit_Example */;
+			targetProxy = 95EBD1894FD1FAB349AC8E650F576DD0 /* PBXContainerItemProxy */;
+		};
+		50F8CD189CDA86E18A5BB3F03346B187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NNThemeKit;
+			target = 58C2F0AC4F922D0D9D13BC190B0E7C14 /* NNThemeKit */;
+			targetProxy = 00A1C9EACCC742A1B529EA027FC13FBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09C3A7D9E0838BEAB03B74435FFC43FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EA22A22A8466FDA304532B7441CFFA0 /* NNThemeKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/NNThemeKit/NNThemeKit-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/NNThemeKit/NNThemeKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NNThemeKit/NNThemeKit.modulemap";
+				PRODUCT_MODULE_NAME = NNThemeKit;
+				PRODUCT_NAME = NNThemeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		28CA2E5F9CA7DB05C3EF539CA7EF0CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB65D5113BABF7888A219F5C3AC8E444 /* Pods-NNThemeKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-NNThemeKit_Tests/Pods-NNThemeKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NNThemeKit_Tests/Pods-NNThemeKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4ADD9BBEE4437276477616ACB2C3A35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55D9CF9D889EE75B91A1D9EE61D2B12C /* Pods-NNThemeKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-NNThemeKit_Tests/Pods-NNThemeKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NNThemeKit_Tests/Pods-NNThemeKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4B16EAE892F21F2DC8BF6082D9CCAAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECAF31DFE245903858E2450EDCF51F7C /* NNThemeKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/NNThemeKit/NNThemeKit-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/NNThemeKit/NNThemeKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NNThemeKit/NNThemeKit.modulemap";
+				PRODUCT_MODULE_NAME = NNThemeKit;
+				PRODUCT_NAME = NNThemeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B6E19A8C3401FD304137E14DD496D53F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BACCB2F0AFBB6D4571E6AD2D8E2D61DC /* Pods-NNThemeKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-NNThemeKit_Example/Pods-NNThemeKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NNThemeKit_Example/Pods-NNThemeKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D288F4FB7FC770F80DAFD4115BDD0595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DCA783C9740871A6D5ABA58FEF89859 /* Pods-NNThemeKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-NNThemeKit_Example/Pods-NNThemeKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NNThemeKit_Example/Pods-NNThemeKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B30B9092424F2192AECA5EF3D129B79 /* Build configuration list for PBXNativeTarget "Pods-NNThemeKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E19A8C3401FD304137E14DD496D53F /* Debug */,
+				D288F4FB7FC770F80DAFD4115BDD0595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFC4049A2D11BDF2E7B067C11B6381B0 /* Build configuration list for PBXNativeTarget "Pods-NNThemeKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CA2E5F9CA7DB05C3EF539CA7EF0CE8 /* Debug */,
+				4ADD9BBEE4437276477616ACB2C3A35C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E48C154664C86482BA91F84BB8BFF6BA /* Build configuration list for PBXNativeTarget "NNThemeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C3A7D9E0838BEAB03B74435FFC43FB /* Debug */,
+				4B16EAE892F21F2DC8BF6082D9CCAAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

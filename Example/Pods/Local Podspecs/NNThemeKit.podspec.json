@@ -1,0 +1,27 @@
+{
+  "name": "NNThemeKit",
+  "version": "0.1.0",
+  "summary": "A short description of NNThemeKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/17306472/NNThemeKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "17306472": "xyh30902@163.com"
+  },
+  "source": {
+    "git": "https://github.com/17306472/NNThemeKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "ios": {
+    "frameworks": "UIKit"
+  },
+  "swift_versions": "5.0",
+  "source_files": "NNThemeKit/Classes/**/*",
+  "swift_version": "5.0"
+}
